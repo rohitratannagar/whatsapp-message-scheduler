@@ -98,6 +98,10 @@ cron.schedule('* * * * *', async () => {
     await ScheduledMessage.deleteOne({ _id: message._id });
   }
 });
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+
 
 // Start the server
 app.listen(PORT, () => {
