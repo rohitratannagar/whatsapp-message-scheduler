@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables / Secrets
+.env
+*.env
+
+# Flask specific
+instance/
+.webassets-cache
+
+# macOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+env/
+
+# Node.js dependencies (if you add any frontend tools)
+node_modules/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Log files
+*.log
+
+# Frontend build files (if any)
+dist/
+build/
+
+# Twilio auth files (if any created manually)
+twilio.env
+
+# Render deploy build files
+*.sqlite3
